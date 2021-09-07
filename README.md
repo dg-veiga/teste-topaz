@@ -1,11 +1,11 @@
 # teste-topaz
 
-Para executar, basta entrar na pasta e executar o python com o nome do script .py e passar como argumento o nome do arquivo de input presente no mesmo diretório (input.txt):
+Para executar, após clonar o diretório como o comando 'git clone https://github.com/dg-veiga/teste-topaz.git' basta entrar na pasta e executar o python com o nome do script .py e passar como argumento o nome do arquivo de input presente no mesmo diretório (input.txt):
 
     $ cd teste-topaz
     $ python main.py input.txt
 
-input.txt:
+Arquivo de input, input.txt:
 
     4
     2
@@ -16,7 +16,7 @@ input.txt:
     0
     1
 
-output.txt:
+Arquivo de saída, output.txt:
 
     1
     2,2
@@ -42,3 +42,9 @@ Prints da execução do script:
     {'Tick': 8, 'Input': '-', 'Ttasks': [[2]]}
     {'Tick': 9, 'Input': '-', 'Ttasks': [[1]]}
     {'Tick': 10, 'Input': '-', 'Ttasks': []}
+
+Representação dos valores dos dicts acima:
+
+- Tick: momento da execução
+- Input: novos usuários entrando no exato momento
+- Ttasks: cada array dentro do array mestre representa um server, e dentro de cada server estão os valores em ticks restantes para a conclusão das tarefas de cada usuário presente no server.
