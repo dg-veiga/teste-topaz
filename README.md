@@ -1,7 +1,8 @@
 # teste-topaz
 
-Para executar, após clonar o diretório como o comando 'git clone https://github.com/dg-veiga/teste-topaz.git' basta entrar na pasta e executar o python com o nome do script .py e passar como argumento o nome do arquivo de input presente no mesmo diretório (input.txt):
+Para executar, após clonar o diretório como o comando _git clone https://github.com/dg-veiga/teste-topaz.git_ basta entrar na pasta e executar o python com o nome do script .py e passar como argumento o nome do arquivo de input presente no mesmo diretório (input.txt):
 
+    $ git clone https://github.com/dg-veiga/teste-topaz.git
     $ cd teste-topaz
     $ python main.py input.txt
 
